@@ -1,0 +1,14 @@
+{
+ "rotation": "center2",
+ "seed": 1,
+ "encoder": "owkin/phikon",
+ "head": "linear",
+ "adapt": "layernorm",
+ "methods": [
+  "no_tta",
+  "tent",
+  "flip_tta",
+  "eata"
+ ],
+ "version": "2026-11-10-colab-pro"
+}

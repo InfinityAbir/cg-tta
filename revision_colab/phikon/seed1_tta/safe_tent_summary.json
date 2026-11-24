@@ -1,0 +1,22 @@
+{
+ "n": 85054,
+ "accuracy": 0.9485620899663743,
+ "balanced_accuracy": 0.9485620899663743,
+ "auroc": 0.9915002356570216,
+ "nll": 0.17875746525109043,
+ "brier": 0.04329800970787392,
+ "ece_15": 0.025269544795675867,
+ "mean_confidence": 0.9697752898079768,
+ "mean_entropy": 0.07910479353907289,
+ "method": "safe_tent",
+ "rotation": "center2",
+ "seed": 1,
+ "encoder": "owkin/phikon",
+ "proposed": 2679,
+ "accepted": 468,
+ "acceptance_rate": 0.17469204927211646,
+ "help": 462,
+ "harm": 6,
+ "net": 456,
+ "harm_rate": 7.479151864178602e-05
+}

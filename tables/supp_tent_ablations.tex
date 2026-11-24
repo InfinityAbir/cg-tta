@@ -1,0 +1,14 @@
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lccccc}
+\toprule
+Experiment & Accuracy & AUROC & NLL & Brier & ECE \\
+\midrule
+No-TTA & 0.9490 & 0.9894 & 0.1308 & 0.0378 & 0.0145 \\
+TENT (default) & 0.9503 & 0.9903 & 0.1279 & 0.0371 & 0.0156 \\
+LR $10^{-4}$ & 0.9490 & 0.9895 & 0.1305 & 0.0378 & 0.0146 \\
+LR $5{\times}10^{-4}$ & 0.9497 & 0.9898 & 0.1294 & 0.0375 & 0.0150 \\
+No grad clip & 0.9503 & 0.9903 & 0.1279 & 0.0371 & 0.0156 \\
+Two steps & 0.9519 & 0.9912 & 0.1243 & 0.0360 & 0.0167 \\
+\bottomrule
+\end{tabular}

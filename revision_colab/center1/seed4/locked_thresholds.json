@@ -1,0 +1,21 @@
+{
+ "version": "2026-11-10-colab-pro",
+ "seed": 4,
+ "center1_n": 34904,
+ "center1_slides": 10,
+ "tent_flips": 211,
+ "target_accepted": 21,
+ "target_fraction": 0.1,
+ "target_top1pct_accepted": 349,
+ "target_top1pct_fraction": 0.01,
+ "rule_flip10": "top 10% of TENT flips on Center-1, label-free",
+ "rule_patch1": "top 1% of all Center-1 patches, label-free",
+ "threshold_frozen_conf": 0.6131648421287537,
+ "threshold_frozen_conf_top1pct": 0.9999995231628418,
+ "threshold_tent_conf": 0.6564468145370483,
+ "threshold_tent_conf_top1pct": 0.9999996423721313,
+ "threshold_critic_conf": 0.7854453921318054,
+ "threshold_critic_conf_top1pct": 0.9999991655349731,
+ "threshold_gate_margin": 0.12842446565628052,
+ "threshold_gate_margin_top1pct": 0.08260732889175415
+}

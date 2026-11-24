@@ -1,0 +1,18 @@
+\begin{tabular}{@{}lccccccc@{}}
+\toprule
+Rule & Accepted & Acc. & Help & Harm & Net & Prec. & Accepted per seed \\
+\midrule
+Frozen & -- & 0.9190 & 0 & 0 & 0 & -- & -- \\
+TENT (all flips) & 2,131 & 0.9360 & 1,785 & 346 & $+1{,}439$ & 0.838 & 537--3,171 \\
+\textbf{CG-TENT} & 665 & 0.9257 & 617 & 49 & $+568$ & 0.927 & 220--830 \\
+\midrule
+Locked R1, TENT conf. & 1,244 & 0.9311 & 1,136 & 108 & $+1{,}028$ & 0.913 & 6--2,255 \\
+Locked R1, frozen conf. & 1,111 & 0.9287 & 965 & 145 & $+820$ & 0.869 & 4--2,197 \\
+Locked R1, critic conf. & 483 & 0.9224 & 382 & 101 & $+282$ & 0.792 & 52--1,073 \\
+Locked R1, gate margin & 757 & 0.9266 & 701 & 56 & $+645$ & 0.926 & 13--1,303 \\
+Locked R2, gate margin & 815 & 0.9270 & 746 & 70 & $+676$ & 0.914 & 27--1,527 \\
+Locked R2, TENT conf. & 0 & 0.9190 & 0 & 0 & 0 & -- & 0 \\
+\midrule
+Target Q33, TENT conf. & 711 & 0.9265 & 674 & 37 & $+637$ & 0.948 & 179--1,057 \\
+\bottomrule
+\end{tabular}

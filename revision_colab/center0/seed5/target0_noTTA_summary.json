@@ -1,0 +1,12 @@
+{
+ "seed": 5,
+ "source_n": 249011,
+ "val_n": 34904,
+ "target_n": 59436,
+ "best_epoch": 4,
+ "best_val_ba": 0.9066582626633051,
+ "best_val_nll": 0.26197993755340576,
+ "target0_noTTA_acc": 0.9561376943266707,
+ "target0_noTTA_ba": 0.9561376943266706,
+ "target0_noTTA_nll": 0.14452913403511047
+}

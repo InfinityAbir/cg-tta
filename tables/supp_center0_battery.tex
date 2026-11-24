@@ -1,0 +1,17 @@
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lcccccc}
+\toprule
+Method & Acc & $\Delta$Acc & Help & Harm & Net & ECE-15 \\
+\midrule
+No-TTA & 0.9587 & --- & --- & --- & --- & 0.0145 \\
+TENT & 0.9618 & $+0.31$ & 253 & 68 & $+184$ & 0.0138 \\
+Flip-TTA & 0.9649 & $+0.62$ & 673 & 303 & $+370$ & 0.0077 \\
+EATA-LN & 0.9611 & $+0.24$ & 189 & 44 & $+146$ & 0.0140 \\
+SHOT-IM & 0.9486 & $-1.01$ & 202 & 802 & $-600$ & 0.0223 \\
+\midrule
+CG-TENT & 0.9614 & $+0.27$ & 167 & 8 & $+159$ & 0.0156 \\
+CG-EATA & 0.9609 & $+0.22$ & 134 & 5 & $+129$ & 0.0155 \\
+CG-SHOT & 0.9596 & $+0.09$ & 137 & 84 & $+53$ & 0.0151 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,28 @@
+{
+ "method": "shot",
+ "seed": 3,
+ "version": "2026-11-24-crc-v1",
+ "n": 7180,
+ "accuracy": 0.9724233983286908,
+ "balanced_accuracy": 0.9611961223270996,
+ "macro_f1": 0.9611062928360484,
+ "nll": 0.11775043508357695,
+ "brier": 0.04525269215132618,
+ "ece_15": 0.017111378696469566,
+ "mean_confidence": 0.9890810871232187,
+ "mean_entropy": 0.02893485224191265,
+ "auroc_ovr_macro": 0.9981051378760591,
+ "help": 3,
+ "harm": 0,
+ "net": 3,
+ "harm_rate": 0.0,
+ "tumor_view": {
+  "sensitivity": 0.981346309813463,
+  "specificity": 0.9963006557928368,
+  "fp_harm": 0,
+  "fn_harm": 0,
+  "fn_recovered": 0,
+  "fp_corrected": 1,
+  "n_tumor": 1233
+ }
+}

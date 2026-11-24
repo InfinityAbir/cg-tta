@@ -1,0 +1,30 @@
+{
+ "method": "eata",
+ "seed": 5,
+ "version": "2026-11-24-crc-v1",
+ "n": 7180,
+ "accuracy": 0.9683844011142061,
+ "balanced_accuracy": 0.9529208654937771,
+ "macro_f1": 0.9537558721082178,
+ "nll": 0.1498272400009066,
+ "brier": 0.05348805229540767,
+ "ece_15": 0.02300829666570707,
+ "mean_confidence": 0.9912894751866216,
+ "mean_entropy": 0.024357585820335453,
+ "auroc_ovr_macro": 0.9979287874166888,
+ "help": 1,
+ "harm": 0,
+ "net": 1,
+ "harm_rate": 0.0,
+ "tumor_view": {
+  "sensitivity": 0.981346309813463,
+  "specificity": 0.9961325037834202,
+  "fp_harm": 0,
+  "fn_harm": 0,
+  "fn_recovered": 1,
+  "fp_corrected": 0,
+  "n_tumor": 1233
+ },
+ "selected_fraction": 0.9976323119777158,
+ "skipped_batches": 0
+}

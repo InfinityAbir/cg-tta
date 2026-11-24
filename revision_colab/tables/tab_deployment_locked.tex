@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Center-2 deployment of label-free comparators. Target Q33 accepts the top third of TENT flips by TENT confidence on the unlabeled target stream (Target Q10/Q50 are reported in the full table). Locked R1 accepts the top 10\% of Center-1 TENT flips by the score; Locked R2 accepts the top 1\% of all Center-1 patches. No target label is used by any threshold. Counts are means over five seeds; accuracy is the mean gated accuracy. Cov.\ is the percentage of all patches accepted; precision is computed from the mean help and harm counts.}
+\label{tab:deployment-locked}
+\begin{tabular}{@{}lcccccccc@{}}
+\toprule
+Rule & Accepted & Cov.\% & Acc. & Help & Harm & Net & Prec. & Rec. \\
+\midrule
+Frozen & 0 & 0.00 & 0.9190 & 0 & 0 & 0 & 0.000 & 0.000 \\
+TENT (all flips) & 2{,}131 & 2.51 & 0.9360 & 1{,}785 & 346 & 1{,}439 & 0.838 & 1.000 \\
+Flip-TTA & 1{,}923 & 2.26 & 0.9260 & 1{,}255 & 668 & 588 & 0.653 & 1.000 \\
+CG-TENT & 665 & 0.78 & 0.9257 & 617 & 49 & 568 & 0.927 & 0.393 \\
+Target Q33: TENT conf. & 711 & 0.84 & 0.9265 & 674 & 37 & 637 & 0.948 & 0.365 \\
+Locked R1: TENT conf. & 1{,}244 & 1.46 & 0.9311 & 1{,}136 & 108 & 1{,}028 & 0.913 & 0.518 \\
+Locked R2: TENT conf. & 0 & 0.00 & 0.9190 & 0 & 0 & 0 & 0.000 & 0.000 \\
+Oracle & 1{,}785 & 2.10 & 0.9400 & 1{,}785 & 0 & 1{,}785 & 1.000 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table*}

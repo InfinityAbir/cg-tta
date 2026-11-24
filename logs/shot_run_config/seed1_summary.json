@@ -1,0 +1,19 @@
+{
+ "seed": 1,
+ "method": "SHOT-IM (LN-only)",
+ "im_w": 1.0,
+ "batch": 64,
+ "lr": 0.001,
+ "n": 85054,
+ "help": -1,
+ "harm": -1,
+ "net": -1,
+ "harm_rate": -1.0,
+ "mcnemar_p": null,
+ "shot_accuracy": 0.9484915465468996,
+ "shot_auroc": 0.9894378241624211,
+ "shot_ap": 0.9908662619612942,
+ "shot_nll": 0.134467468401917,
+ "shot_brier": 0.038585958269139506,
+ "shot_ece_15": 0.015407084307254746
+}

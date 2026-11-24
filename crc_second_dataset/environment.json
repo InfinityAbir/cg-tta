@@ -1,0 +1,13 @@
+{
+ "python": "3.13.16",
+ "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+ "script": "2026-11-24-crc-v1",
+ "torch": "2.14.1+cu130",
+ "cuda_available": true,
+ "cuda": "13.0",
+ "gpu": "Tesla T4",
+ "timm": "1.0.31",
+ "numpy": "2.4.6",
+ "sklearn": "1.6.1",
+ "PIL": "11.3.0"
+}

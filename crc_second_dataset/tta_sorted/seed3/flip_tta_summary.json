@@ -1,0 +1,28 @@
+{
+ "method": "flip_tta",
+ "seed": 3,
+ "version": "2026-11-24-crc-v1",
+ "n": 7180,
+ "accuracy": 0.9781337047353761,
+ "balanced_accuracy": 0.9688455851663758,
+ "macro_f1": 0.970145984672953,
+ "nll": 0.09646883413527783,
+ "brier": 0.036388773228792276,
+ "ece_15": 0.009711697701790254,
+ "mean_confidence": 0.9847483553801738,
+ "mean_entropy": 0.03853290676915248,
+ "auroc_ovr_macro": 0.9982641407877275,
+ "help": 64,
+ "harm": 20,
+ "net": 44,
+ "harm_rate": 0.002865740077374982,
+ "tumor_view": {
+  "sensitivity": 0.9845904298459043,
+  "specificity": 0.9959643517740037,
+  "fp_harm": 5,
+  "fn_harm": 2,
+  "fn_recovered": 6,
+  "fp_corrected": 4,
+  "n_tumor": 1233
+ }
+}

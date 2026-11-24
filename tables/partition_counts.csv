@@ -1,0 +1,6 @@
+partition,centers,patches,slides,patients,tumor,non_tumor
+Source train,"0, 3, 4",302436,30,26,151390,151046
+Source ID val,"0, 3, 4",33560,30,26,16608,16952
+OOD validation,1,34904,10,8,17452,17452
+Target (Center 2),2,85054,10,9,42527,42527
+"Target (Center 0, 2nd rotation)",0,59436,10,7,29718,29718

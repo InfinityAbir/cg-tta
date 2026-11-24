@@ -1,0 +1,17 @@
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{llccc}
+\toprule
+Center & Method & AUROC & Capture@10\% & 1st-decile harm \\
+\midrule
+\multirow{4}{*}{Center-2 (5 runs)} & TENT & 0.979 & 0.918 & 3.57\% \\
+ & Flip-TTA & 0.981 & 0.934 & 7.29\% \\
+ & EATA-LN & 0.986 & 0.961 & 3.17\% \\
+ & SHOT-IM & 0.942 & 0.604 & 21.03\% \\
+\midrule
+\multirow{4}{*}{Center-0 (5 runs)} & TENT & 0.995 & 1.000 & 1.15\% \\
+ & Flip-TTA & 0.982 & 0.962 & 4.88\% \\
+ & EATA-LN & 0.996 & 1.000 & 0.74\% \\
+ & SHOT-IM & 0.978 & 0.914 & 11.64\% \\
+\bottomrule
+\end{tabular}

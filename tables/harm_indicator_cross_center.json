@@ -1,0 +1,74 @@
+{
+ "provenance": "label-free harm indicator, cross-center generalization",
+ "indicator": "1 - pre-adaptation softmax confidence for C->W among initially-correct",
+ "centers": {
+  "center2": {
+   "tent": {
+    "auroc_mean": 0.9793543531598692,
+    "capture_at_10pct_mean": 0.9180677335675738,
+    "bottom_decile_harm_rate_mean": 0.03573947801551846,
+    "top_decile_harm_rate_mean": 0.0,
+    "prevalence_cond_mean": 0.004435638238567563,
+    "n_runs": 5
+   },
+   "flip_tta": {
+    "auroc_mean": 0.9808324040777736,
+    "capture_at_10pct_mean": 0.934011383142869,
+    "bottom_decile_harm_rate_mean": 0.07286621208558663,
+    "top_decile_harm_rate_mean": 0.0,
+    "prevalence_cond_mean": 0.00856732827498955,
+    "n_runs": 5
+   },
+   "eata": {
+    "auroc_mean": 0.9855333845851189,
+    "capture_at_10pct_mean": 0.9609605743640527,
+    "bottom_decile_harm_rate_mean": 0.031671761109804845,
+    "top_decile_harm_rate_mean": 0.0,
+    "prevalence_cond_mean": 0.003684656708852699,
+    "n_runs": 5
+   },
+   "shot": {
+    "auroc_mean": 0.9415549391964824,
+    "capture_at_10pct_mean": 0.6036720522936484,
+    "bottom_decile_harm_rate_mean": 0.21025158711497766,
+    "top_decile_harm_rate_mean": 4.7025628967787444e-05,
+    "prevalence_cond_mean": 0.052426485090236376,
+    "n_runs": 5
+   }
+  },
+  "center0": {
+   "tent": {
+    "auroc_mean": 0.9949259904615877,
+    "capture_at_10pct_mean": 1.0,
+    "bottom_decile_harm_rate_mean": 0.011507402422611036,
+    "top_decile_harm_rate_mean": 0.0,
+    "prevalence_cond_mean": 0.0012016757034218628,
+    "n_runs": 5
+   },
+   "flip_tta": {
+    "auroc_mean": 0.9821503789390679,
+    "capture_at_10pct_mean": 0.9616765445866309,
+    "bottom_decile_harm_rate_mean": 0.04875504710632571,
+    "top_decile_harm_rate_mean": 0.0,
+    "prevalence_cond_mean": 0.005325930540667208,
+    "n_runs": 5
+   },
+   "eata": {
+    "auroc_mean": 0.9963944327915197,
+    "capture_at_10pct_mean": 1.0,
+    "bottom_decile_harm_rate_mean": 0.007368775235531628,
+    "top_decile_harm_rate_mean": 0.0,
+    "prevalence_cond_mean": 0.0007699152783862807,
+    "n_runs": 5
+   },
+   "shot": {
+    "auroc_mean": 0.9776194913682366,
+    "capture_at_10pct_mean": 0.9140401953526041,
+    "bottom_decile_harm_rate_mean": 0.11638627187079406,
+    "top_decile_harm_rate_mean": 0.0,
+    "prevalence_cond_mean": 0.014112632204806236,
+    "n_runs": 5
+   }
+  }
+ }
+}

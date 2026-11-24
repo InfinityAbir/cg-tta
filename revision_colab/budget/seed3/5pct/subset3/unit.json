@@ -1,0 +1,13 @@
+{
+ "rotation": "center2",
+ "seed": 3,
+ "budget": "5pct",
+ "subset_seed": 3,
+ "design": "fixed-heldout-10pct",
+ "eval_n": 8491,
+ "pool_n": 76563,
+ "eval_sha256": "2a86a8fe1c2ebb24cd2e704b0f99a3cc40ec598efa8b69db9cb1a277e85bbfc6",
+ "pool_sha256": "e7d6fa02468ae38b1993bdc87e5f8f704ab3084dd7dcc07b7dd3ee52503499b3",
+ "split_rule": "md5(patch_id) mod 10 == 0",
+ "version": "2026-11-10-colab-pro"
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper."
+title: "Help Versus Harm: Auditing Test-Time Adaptation of Pathology Vision Transformers on Camelyon17 with a Label-Free Consensus Gate"
+type: software
+authors:
+  - family-names: Hasan
+    given-names: Abir
+    affiliation: "IUBAT - International University of Business Agriculture and Technology, Dhaka, Bangladesh"
+  - family-names: Yasmin
+    given-names: Sadia
+    affiliation: "IUBAT - International University of Business Agriculture and Technology, Dhaka, Bangladesh"
+  - family-names: Awal
+    given-names: Md. Abdul
+    affiliation: "IUBAT - International University of Business Agriculture and Technology, Dhaka, Bangladesh"
+repository-code: "https://github.com/InfinityAbir/cg-tta"
+license: MIT
+date-released: 2026-11-24

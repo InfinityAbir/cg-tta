@@ -1,0 +1,28 @@
+{
+ "method": "tent",
+ "seed": 2,
+ "version": "2026-11-24-crc-v1",
+ "n": 7180,
+ "accuracy": 0.9678272980501392,
+ "balanced_accuracy": 0.9517435701475837,
+ "macro_f1": 0.9512066780329316,
+ "nll": 0.16301910635950223,
+ "brier": 0.055666133780129516,
+ "ece_15": 0.02347411955797569,
+ "mean_confidence": 0.9911261246230941,
+ "mean_entropy": 0.02425679957656853,
+ "auroc_ovr_macro": 0.9978243090490975,
+ "help": 1,
+ "harm": 0,
+ "net": 1,
+ "harm_rate": 0.0,
+ "tumor_view": {
+  "sensitivity": 0.9821573398215734,
+  "specificity": 0.9964688078022532,
+  "fp_harm": 0,
+  "fn_harm": 0,
+  "fn_recovered": 0,
+  "fp_corrected": 0,
+  "n_tumor": 1233
+ }
+}

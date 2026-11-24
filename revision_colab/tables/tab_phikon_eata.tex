@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\caption{Phikon ViT-B/16 linear probe on Center-2, mean$\pm$sd over head seeds. EATA-LN adapts LayerNorm parameters only; the linear head stays frozen during adaptation. Harm and net are paired against the same-seed frozen probe.}
+\label{tab:phikon-eata}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Method & Seeds & Bal.\ acc. & Acc. & Harm & Net \\
+\midrule
+Phikon probe (frozen head) & 5 & 0.9442$\pm$0.0021 & 0.9442$\pm$0.0021 & -- & -- \\
+No-TTA & 5 & 0.9442$\pm$0.0021 & 0.9442$\pm$0.0021 & -- & -- \\
+TENT & 5 & 0.9716$\pm$0.0007 & 0.9716$\pm$0.0007 & 227 & 2{,}331 \\
+Flip-TTA & 5 & 0.9484$\pm$0.0022 & 0.9484$\pm$0.0022 & 221 & 359 \\
+EATA-LN & 5 & 0.9701$\pm$0.0006 & 0.9701$\pm$0.0006 & 204 & 2{,}207 \\
+CG-TENT & 5 & 0.9505$\pm$0.0020 & 0.9505$\pm$0.0020 & 12 & 535 \\
+\bottomrule
+\end{tabular}
+\end{table}

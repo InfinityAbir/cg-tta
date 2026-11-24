@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Center-0 results for the newly trained fifth source seed (seed 5). Harm and net are paired against the same-seed frozen model. The first four Center-0 seeds are reported in the main table; this table adds the fifth seed only.}
+\label{tab:center0-seed5}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Method & Seeds & Acc. & Bal.\ acc. & Harm & Net \\
+\midrule
+No-TTA & 1 & 0.9561 & 0.9561 & -- & -- \\
+TENT & 1 & 0.9607 & 0.9607 & 84 & 269 \\
+Flip-TTA & 1 & 0.9623 & 0.9623 & 417 & 364 \\
+EATA-LN & 1 & 0.9599 & 0.9599 & 56 & 226 \\
+SHOT-IM & 1 & 0.9440 & 0.9440 & 815 & -723 \\
+\bottomrule
+\end{tabular}
+\end{table}

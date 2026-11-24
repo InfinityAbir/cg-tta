@@ -1,0 +1,33 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{5pt}
+\caption{GPU benchmark on one fixed checkpoint, model compute only (data loading excluded). Latency is per batch, p50/p95 over twenty measured repetitions after three warm-up repetitions. CG-TENT includes the TENT update and four frozen critic views. Hardware: Tesla T4, 15.64 GB, torch 2.14.1+cu130. Peak VRAM is allocated memory.}
+\label{tab:timing-gpu}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Mode & Batch & Img/s & p50 (ms) & p95 (ms) & ms/img & Peak MB \\
+\midrule
+Frozen & 1 & 63.2 & 13.33 & 23.32 & 13.33 & 360 \\
+Frozen & 8 & 101.6 & 78.49 & 80.53 & 9.81 & 416 \\
+Frozen & 16 & 97.8 & 163.47 & 165.79 & 10.22 & 478 \\
+Frozen & 32 & 102.3 & 312.80 & 315.93 & 9.78 & 604 \\
+Frozen & 64 & 98.3 & 650.22 & 658.84 & 10.16 & 856 \\
+TENT & 1 & 20.5 & 48.81 & 49.42 & 48.81 & 838 \\
+TENT & 8 & 27.1 & 296.10 & 298.72 & 37.01 & 1685 \\
+TENT & 16 & 26.5 & 604.36 & 610.62 & 37.77 & 2659 \\
+TENT & 32 & 26.6 & 1205.27 & 1209.84 & 37.66 & 4586 \\
+TENT & 64 & 27.7 & 2309.10 & 2333.46 & 36.08 & 8422 \\
+Flip-TTA & 1 & 18.3 & 54.40 & 55.22 & 54.40 & 361 \\
+Flip-TTA & 8 & 23.3 & 343.76 & 346.56 & 42.97 & 420 \\
+Flip-TTA & 16 & 21.4 & 747.82 & 755.81 & 46.74 & 488 \\
+Flip-TTA & 32 & 21.8 & 1455.61 & 1505.24 & 45.49 & 624 \\
+Flip-TTA & 64 & 19.0 & 3354.76 & 3576.94 & 52.42 & 895 \\
+CG-TENT & 1 & 8.6 & 115.64 & 117.91 & 115.64 & 1181 \\
+CG-TENT & 8 & 11.1 & 720.12 & 724.33 & 90.01 & 2028 \\
+CG-TENT & 16 & 10.6 & 1514.39 & 1517.38 & 94.65 & 3003 \\
+CG-TENT & 32 & 11.3 & 2838.13 & 2843.39 & 88.69 & 4929 \\
+CG-TENT & 64 & 11.4 & 5632.87 & 5643.34 & 88.01 & 8765 \\
+\bottomrule
+\end{tabular}
+\end{table*}

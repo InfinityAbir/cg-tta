@@ -1,0 +1,40 @@
+{
+ "train_norm": {
+  "key": "train_norm",
+  "n": 100000,
+  "class_counts": {
+   "ADI": 10407,
+   "BACK": 10566,
+   "DEB": 11512,
+   "LYM": 11557,
+   "MUC": 8896,
+   "MUS": 13536,
+   "NORM": 8763,
+   "STR": 10446,
+   "TUM": 14317
+  },
+  "list_sha256": "2dd4424e9f47a18a12826c75f2e060257883c8c4d9ce9e1b5227eb3f4fcf95c2",
+  "labels_sha256": "ff2db03a799afcb2e931281a6b00d16cc6bf95e3cca50a147b2e348873f85d96",
+  "resized": 0,
+  "version": "2026-11-24-crc-v1"
+ },
+ "val": {
+  "key": "val",
+  "n": 7180,
+  "class_counts": {
+   "ADI": 1338,
+   "BACK": 847,
+   "DEB": 339,
+   "LYM": 634,
+   "MUC": 1035,
+   "MUS": 592,
+   "NORM": 741,
+   "STR": 421,
+   "TUM": 1233
+  },
+  "list_sha256": "450ce025307ef1d3f64f220ceaf03e82a495a79dbaeb1497e5747faf1c9abb48",
+  "labels_sha256": "930992c538ab30144c2afd4ae8aa9615f31d821c6589d0403c51663c39d7c96b",
+  "resized": 0,
+  "version": "2026-11-24-crc-v1"
+ }
+}

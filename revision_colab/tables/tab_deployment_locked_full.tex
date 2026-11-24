@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Full Center-1-locked comparator sweep. The main table reports the pre-declared TENT-confidence rule; this table reports every score and both locking rules for audit.}
+\label{tab:deployment-locked-full}
+\begin{tabular}{@{}lcccccccc@{}}
+\toprule
+Rule & Accepted & Cov.\% & Acc. & Help & Harm & Net & Prec. & Rec. \\
+\midrule
+Frozen & 0 & 0.00 & 0.9190 & 0 & 0 & 0 & 0.000 & 0.000 \\
+TENT (all flips) & 2{,}131 & 2.51 & 0.9360 & 1{,}785 & 346 & 1{,}439 & 0.838 & 1.000 \\
+Flip-TTA & 1{,}923 & 2.26 & 0.9260 & 1{,}255 & 668 & 588 & 0.653 & 1.000 \\
+Probability averaging & 1{,}239 & 1.46 & 0.9299 & 1{,}081 & 158 & 923 & 0.872 & 1.000 \\
+CG-TENT & 665 & 0.78 & 0.9257 & 617 & 49 & 568 & 0.927 & 0.393 \\
+Target Q33: frozen conf. & 710 & 0.84 & 0.9252 & 618 & 93 & 525 & 0.869 & 0.337 \\
+Target Q33: TENT conf. & 711 & 0.84 & 0.9265 & 674 & 37 & 637 & 0.948 & 0.365 \\
+Target Q33: critic conf. & 711 & 0.84 & 0.9241 & 571 & 140 & 431 & 0.803 & 0.315 \\
+Target Q33: gate margin & 710 & 0.84 & 0.9260 & 650 & 61 & 589 & 0.914 & 0.360 \\
+Locked R1: frozen conf. & 1{,}111 & 1.31 & 0.9287 & 965 & 145 & 820 & 0.869 & 0.437 \\
+Locked R1: TENT conf. & 1{,}244 & 1.46 & 0.9311 & 1{,}136 & 108 & 1{,}028 & 0.913 & 0.518 \\
+Locked R1: critic conf. & 483 & 0.57 & 0.9224 & 382 & 101 & 282 & 0.792 & 0.173 \\
+Locked R1: gate margin & 757 & 0.89 & 0.9266 & 701 & 56 & 645 & 0.926 & 0.324 \\
+Locked R2: frozen conf. & 0 & 0.00 & 0.9190 & 0 & 0 & 0 & 0.000 & 0.000 \\
+Locked R2: TENT conf. & 0 & 0.00 & 0.9190 & 0 & 0 & 0 & 0.000 & 0.000 \\
+Locked R2: critic conf. & 0 & 0.00 & 0.9190 & 0 & 0 & 0 & 0.000 & 0.000 \\
+Locked R2: gate margin & 815 & 0.96 & 0.9270 & 746 & 70 & 676 & 0.914 & 0.345 \\
+Oracle & 1{,}785 & 2.10 & 0.9400 & 1{,}785 & 0 & 1{,}785 & 1.000 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,8 @@
+{
+ "note": "SHA-256 of the five archived source checkpoints, computed post-hoc (read-only) on 2026-10-14. These hashes were NOT stored in the per-seed evaluation_summary.json files at evaluation time. Drive copies were not accessible for comparison; identical filenames do not imply identical contents.",
+ "seed1_best.pth": "1ba8f14bb9d4e380b693e48703fa84e8d822a577c153b2b9a3edc8ff14358c3a",
+ "seed2_best.pth": "9b45e76fbc5ec32c725ce5446bc03cf44a66091783323d77b7c234d109217756",
+ "seed3_best.pth": "355606a8c0c9d7519ae20ea95735722ceb754dfa18af6f3a237aa4aabe02610f",
+ "seed4_best.pth": "a0c8e19108fb22dd93497bf658056bf70210fc7d9f4523ab053857b140244cc8",
+ "seed5_best.pth": "ca73ffcc949aa783bdfe41e6f5b06fef4b346397558f523c79ca8fbc26585b9f"
+}

@@ -1,0 +1,2 @@
+n_seeds,frozen_acc_mean,eata_acc_mean,safe_acc_mean,eata_minus_frozen_pp,safe_minus_frozen_pp,safe_minus_eata_pp,eata_help_sum,eata_harm_sum,safe_help_sum,safe_harm_sum,accepted_sum,accepted_correct_sum,precision,help_recall,harm_reject
+3,0.9256903457411371,0.9459833360766886,0.9343005619959084,2.029299033555154,0.8610216254771467,-1.1682774080780074,8976,3798,2504,307,2811,2504,0.8907861970828886,0.2789661319073084,0.9191679831490258

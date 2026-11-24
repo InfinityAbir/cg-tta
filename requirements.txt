@@ -1,0 +1,20 @@
+# CPU environment in which every table and figure in this release was
+# regenerated from predictions/ (see logs/environment.txt).
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.9
+
+# The figure script uses Times New Roman (as in the paper). If it is missing,
+# matplotlib falls back to its default serif and the PNGs will not match.
+#
+# The GPU jobs in colab/ additionally need a CUDA build of PyTorch, timm and
+# (for the Phikon probe) transformers and huggingface_hub:
+#   torch>=2.1  (cu121 wheel)
+#   timm>=0.9
+#   transformers>=4.30
+#   huggingface_hub>=0.20
+# The exact GPU stack was not pinned for the runs reported in the paper; every
+# new run writes logs/environment.json and logs/pip-freeze.txt into its output
+# directory, so later artifacts are self-documenting.

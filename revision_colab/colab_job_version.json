@@ -1,0 +1,14 @@
+{
+ "version": "2026-11-10-colab-pro",
+ "job": "timing",
+ "argv": [
+  "--reps",
+  "20",
+  "--batch-sizes",
+  "1",
+  "8",
+  "16",
+  "32",
+  "64"
+ ]
+}

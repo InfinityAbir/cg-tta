@@ -1,0 +1,15 @@
+rotation,seed,checkpoint,sha256,present_locally,source_centers,val_center,target_center,n_target_patches,n_target_slides
+center2,1,02_Source_Models/seed1_best.pth,1ba8f14bb9d4e380b693e48703fa84e8d822a577c153b2b9a3edc8ff14358c3a,True,"0,3,4",1,2,85054,10
+center2,2,02_Source_Models/seed2_best.pth,9b45e76fbc5ec32c725ce5446bc03cf44a66091783323d77b7c234d109217756,True,"0,3,4",1,2,85054,10
+center2,3,02_Source_Models/seed3_best.pth,355606a8c0c9d7519ae20ea95735722ceb754dfa18af6f3a237aa4aabe02610f,True,"0,3,4",1,2,85054,10
+center2,4,02_Source_Models/seed4_best.pth,a0c8e19108fb22dd93497bf658056bf70210fc7d9f4523ab053857b140244cc8,True,"0,3,4",1,2,85054,10
+center2,5,02_Source_Models/seed5_best.pth,ca73ffcc949aa783bdfe41e6f5b06fef4b346397558f523c79ca8fbc26585b9f,True,"0,3,4",1,2,85054,10
+center0,1,11_Pilot_Rotation/source34_val1_target0/seed1/seed_best.pth,not archived locally; predictions are the authoritative artifact,False,"3,4,raw-split-0",1,0,59436,10
+center0,2,not archived (post-submission center0 seed2 source model),not archived locally; predictions are the authoritative artifact,False,"3,4,raw-split-0",1,0,59436,10
+center0,3,not archived (post-submission center0 seed3 source model),not archived locally; predictions are the authoritative artifact,False,"3,4,raw-split-0",1,0,59436,10
+center0,4,not archived (post-submission center0 seed4 source model),not archived locally; predictions are the authoritative artifact,False,"3,4,raw-split-0",1,0,59436,10
+center0,5,not archived (post-submission center0 seed5 source model),not archived locally; predictions are the authoritative artifact,False,"3,4,raw-split-0",1,0,59436,10
+eata_full,1,02_Source_Models/seed1_best.pth,1ba8f14bb9d4e380b693e48703fa84e8d822a577c153b2b9a3edc8ff14358c3a,True,"0,3,4",1,2,85054,10
+eata_full,2,02_Source_Models/seed2_best.pth,9b45e76fbc5ec32c725ce5446bc03cf44a66091783323d77b7c234d109217756,True,"0,3,4",1,2,85054,10
+eata_full,3,02_Source_Models/seed3_best.pth,355606a8c0c9d7519ae20ea95735722ceb754dfa18af6f3a237aa4aabe02610f,True,"0,3,4",1,2,85054,10
+eata_full_2.5e-4,1,02_Source_Models/seed1_best.pth,1ba8f14bb9d4e380b693e48703fa84e8d822a577c153b2b9a3edc8ff14358c3a,True,"0,3,4",1,2,85054,10

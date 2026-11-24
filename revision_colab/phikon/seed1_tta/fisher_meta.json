@@ -1,0 +1,5 @@
+{
+ "n_samples": 1024,
+ "seed": 0,
+ "normalisation": "mean"
+}

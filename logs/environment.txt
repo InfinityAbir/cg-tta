@@ -1,0 +1,22 @@
+Environment used to regenerate tables and figures from saved predictions
+========================================================================
+Measured on the machine that produced this release (CPU only, no GPU):
+
+python: 3.14.0
+numpy: 2.4.4
+pandas: 3.0.2
+scipy: 1.17.1
+scikit_learn: 1.8.0
+matplotlib: 3.10.9
+torch: 2.14.0+cpu
+cuda_available: False
+
+Pinned versions are in ../requirements.txt.
+
+Training/inference environment reported for the paper's runs
+------------------------------------------------------------
+Tesla T4 (Colab), torch 2.x + cu121, timm 0.9.x, WILDS 1.0, deterministic
+cuDNN kernels. The exact pip freeze from those runs was not retained; the
+released per-seed predictions, not this note, are the record of what was run.
+New runs of colab/colab_cg_tta_gpu.py write environment.json and
+pip-freeze.txt into their output directory automatically.

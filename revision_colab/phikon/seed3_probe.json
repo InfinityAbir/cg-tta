@@ -1,0 +1,17 @@
+{
+ "n": 85054,
+ "accuracy": 0.9457521104239659,
+ "balanced_accuracy": 0.9457521104239659,
+ "auroc": 0.9900419111824403,
+ "nll": 0.17297643022343512,
+ "brier": 0.04293729272258924,
+ "ece_15": 0.018115198119280338,
+ "mean_confidence": 0.9638673085432463,
+ "mean_entropy": 0.09289914724085056,
+ "seed": 3,
+ "best_epoch": 0,
+ "val_ba": 0.9893444177871373,
+ "encoder": "owkin/phikon",
+ "head": "linear",
+ "stage": "frozen-probe"
+}
