@@ -6,6 +6,8 @@ Code, per-seed predictions and table/figure scripts for
 > with a Label-Free Consensus Gate**
 > Abir Hasan, Sadia Yasmin, Md. Abdul Awal (IUBAT, Dhaka, Bangladesh). Manuscript under review.
 
+Archive (Zenodo): [10.5281/zenodo.24508277](https://doi.org/10.5281/zenodo.24508277)
+
 Test-time adaptation (TTA) is usually reported as a change in mean accuracy. This repository splits
 that change into the predictions an adapter **helps** (wrong to right) and the ones it **harms**
 (right to wrong), by error type, and adds a label-free **consensus gate** that accepts an adapter's
@@ -98,5 +100,5 @@ safety guarantee. The paper's limitations section and `docs/DETAILS.md` list the
 ## License and citation
 
 Code: MIT (`LICENSE`). Predictions, tables and figures: CC BY 4.0 (`LICENSE-DATA.md`). The datasets keep
-their own licenses. If you use this work, please cite the paper (`CITATION.cff`); a Zenodo DOI for this
-archive will be added here after publication.
+their own licenses. If you use this work, please cite the paper (`CITATION.cff`). This code and data archive is also on
+Zenodo: https://doi.org/10.5281/zenodo.24508277.
